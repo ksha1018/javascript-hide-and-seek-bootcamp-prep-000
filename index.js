@@ -32,7 +32,6 @@ function increaseRankBy(n){
   }
 }
 
-document.querySelectorAll('.ranked-list')
 
 //getFirstSelector('div');
 console.log(nestedTarget());
