@@ -21,14 +21,14 @@ function increaseRankBy(n){
   var children = firstList.children;
   var start = 1;
   for (var i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = parseInt(children[i].innerHTML) + start + i + 3);
+    children[i].innerHTML = parseInt(children[i].innerHTML) + start + i + 3;
   }
 
   children = secondList.children;
   start = 12;
 
   for (var i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = parseInt(children[i].innerHTML)+ start - i + 3);
+    children[i].innerHTML = parseInt(children[i].innerHTML)+ start - i + 3;
   }
 }
 
