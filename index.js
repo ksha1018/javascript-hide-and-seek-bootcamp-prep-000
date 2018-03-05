@@ -14,20 +14,20 @@ function deepestChild(){
 }
 
 function increaseRankBy(n){
-  const rankedLists = document.querySelectorAll('.ranked-list')
-      const firstList = rankedLists[0]
-      const secondList = rankedLists[1]
+  const rankedLists = document.querySelectorAll('.ranked-list');
+  const firstList = rankedLists[0];
+  const secondList = rankedLists[1];
 
-      let children = firstList.children
-      let start = 1
-      for (let i = 0, l = children.length; i < l; i++) {
-        expect(parseInt(children[i].innerHTML)).toEqual(start + i + 3)
-      }
+  var children = firstList.children;
+  var start = 1;
+  for (var i = 0, l = children.length; i < l; i++) {
+    children[i].innerHTML = parseInt(children[i].innerHTML)) + start + i + 3);
+  }
 
-      children = secondList.children
-      start = 12
+  children = secondList.children;
+  start = 12;
 
-      for (let i = 0, l = children.length; i < l; i++) {
+  for (var i = 0, l = children.length; i < l; i++) {
         expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
       }
 }
