@@ -10,7 +10,7 @@ function nestedTarget(){
 
 
 //getFirstSelector('div');
-console.log(nestedTarget);
+console.log(nestedTarget());
 
 
 
