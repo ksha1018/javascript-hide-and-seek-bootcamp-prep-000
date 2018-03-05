@@ -4,11 +4,13 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  
+  const b = document.querySelector('#nested .target');
+  return b;
 }
-document.querySelector('#nested .target')
 
-getFirstSelector('div');
+
+//getFirstSelector('div');
+console.log(nestedTarget);
 
 
 
